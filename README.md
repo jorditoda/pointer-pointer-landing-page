@@ -4,7 +4,7 @@
 
 ## Credits
 
-- [Automatic App Landing Page Repository](https://github.com/themefisher/app-plus-bootstrap)
+- [Automatic App Landing Page Repository](https://github.com/sofiyevsr/mobile-app-landing-template)
 
 ## License
 [MIT License](LICENSE)
