@@ -1,10 +1,10 @@
 import type { TemplateConfig } from "./configType";
 
 const templateConfig: TemplateConfig = {
-  name: "Lorem Ipsum",
+  name: "Like This",
   seo: {
-    title: "Mobile App Landing Template",
-    description: "Mobile App Landing Template",
+    title: "Download Like This",
+    description: "Like This",
   },
   // Draws grid behind main container
   backgroundGrid: false,
@@ -14,9 +14,9 @@ const templateConfig: TemplateConfig = {
   forceTheme: false,
   // Shows switch to toggle between dark and light modes
   showThemeSwitch: true,
-  appStoreLink: "https://apps.apple.com/us/app/google/id284815942",
+//   appStoreLink: "https://apps.apple.com/us/app/google/id284815942",
   googlePlayLink:
-    "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox",
+    "https://play.google.com/store/apps/details?id=com.stormfkrs.like_this",
   footer: {
     legalLinks: {
       termsAndConditions: true,
@@ -24,9 +24,9 @@ const templateConfig: TemplateConfig = {
       privacyPolicy: true,
     },
     socials: {
-      instagram: "https://instagram.com/google",
-      facebook: "https://facebook.com/google",
-      twitter: "https://x.com/google",
+//       instagram: "https://instagram.com/google",
+//       facebook: "https://facebook.com/google",
+//       twitter: "https://x.com/google",
     },
     links: [
       { href: "/#features", title: "Features" },
@@ -49,9 +49,9 @@ const templateConfig: TemplateConfig = {
   },
   appBanner: {
     id: "app-banner",
-    title: "Download Our Mobile App Today!",
+    title: "Download Like This Today!",
     subtitle:
-      "Unlock the full potential of our services with seamless access at your fingertips. Stay connected, informed, and in control wherever you are.",
+      "Discover the most amazing items in the world. Stay connected, informed, and in control wherever you are.",
     screenshots: [
       "/screenshots/1.webp",
       "/screenshots/2.webp",
@@ -60,8 +60,8 @@ const templateConfig: TemplateConfig = {
   },
   home: {
     seo: {
-      title: "Mobile App Landing Template",
-      description: "Mobile App Landing Template",
+      title: "Download Like This Mobile App",
+      description: "Download Like This Mobile App",
     },
     testimonials: {
       id: "testimonials",
