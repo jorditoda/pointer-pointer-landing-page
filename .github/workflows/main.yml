@@ -11,7 +11,8 @@ permissions:
 
 jobs:
     build:
-      name: github-pages
+      environment:
+        name: github-pages
       runs-on: ubuntu-latest
 
       strategy:
