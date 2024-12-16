@@ -69,41 +69,38 @@ const templateConfig: TemplateConfig = {
       subtitle: "Check out a few of our customer stories",
       cards: [
         {
-          name: "Alice Johnson",
+          name: "Marta G.",
           comment:
-            "The service was fantastic! Highly recommended. The team was very professional and attentive to our needs. They went above and beyond to ensure we were satisfied with the results. I will definitely be using their services again in the future.",
+            "Una app súper divertida y original. Me encanta cómo puedo agregar cualquier cosa que se me ocurra para encontrar en el juego. La nueva función de Bingo es un toque genial, ¡mis amigos y yo no podemos dejar de jugar!",
         },
         {
-          name: "Bob Smith",
+          name: "Carlos H.",
           comment:
-            "Great value for the price. Very satisfied with the overall experience. The product quality is top-notch and the customer service is excellent. I appreciate the prompt responses to my inquiries and the helpful advice provided. Highly recommend.",
+            "‘Like This’ ha llevado nuestras reuniones familiares al siguiente nivel. El modo Bingo es nuestro favorito, especialmente cuando añadimos cosas graciosas y raras a nuestras tarjetas. ¡Muy recomendable!",
         },
         {
-          name: "Charlie Brown",
+          name: "Ana P.",
           comment:
-            "An excellent experience from start to finish. The onboarding process was smooth and the support team was very responsive. I felt valued as a customer and the results exceeded my expectations. I am impressed with the level of detail and care put into their work.",
-        },
+            "Soy un gran fan de las apps que combinan creatividad y diversión, y ‘Like This’ lo hace perfectamente. La animación de nieve navideña me ha encantado, ¡realmente le da un toque especial a la temporada!",        },
         {
-          name: "Dana White",
+          name: "Jose R.",
           comment:
-            "Superb customer service and high-quality products. The team demonstrated great expertise and patience throughout the project. They addressed all my concerns and provided valuable insights. The end product was delivered on time and surpassed my expectations.",
-        },
+"Esta app es perfecta para mantener entretenidos a mis hijos durante las salidas. Les encanta buscar los ítems que agregamos en el juego. La nueva función de Bingo añade una competencia sana y mucha diversión.",        },
         {
-          name: "Eve Adams",
+          name: "Laura M.",
           comment:
-            "I couldn't be happier with the results! The attention to detail and the level of customization provided was outstanding. The team was friendly and professional, making the entire process enjoyable. I highly recommend their services to anyone looking for top-quality work.",
-        },
+"La simplicidad y el ingenio de ‘Like This’ me han sorprendido gratamente. Crear mis propias tarjetas de Bingo con ítems originales ha sido una experiencia única. ¡Gran trabajo con esta app!",        },
       ],
     },
-    partners: {
-      title: "As seen on",
-      logos: [
-        "/misc/companies/apple.svg",
-        "/misc/companies/aws.svg",
-        "/misc/companies/google.svg",
-        "/misc/companies/tumblr.svg",
-      ],
-    },
+//     partners: {
+//       title: "As seen on",
+//       logos: [
+//         "/misc/companies/apple.svg",
+//         "/misc/companies/aws.svg",
+//         "/misc/companies/google.svg",
+//         "/misc/companies/tumblr.svg",
+//       ],
+//     },
     howItWorks: {
       id: "how-it-works",
       title: "How it works",
@@ -123,54 +120,54 @@ const templateConfig: TemplateConfig = {
           image: "/stock/02.webp",
         },
         {
-          title: "Set Up Your Profile",
+          title: "Create a new Game",
           subtitle:
-            "Complete your profile by adding necessary information and preferences to personalize your experience on the platform.",
+            "Create a new fully customized game to play with your friends",
           image: "/stock/03.webp",
         },
         {
-          title: "Explore Features",
+          title: "Have fun",
           subtitle:
-            "Navigate through the app to discover various features and tools designed to enhance your productivity and engagement.",
+            "Play with your friends in a single game and beat them all",
           image: "/stock/04.webp",
         },
-        {
-          title: "Connect with Others",
-          subtitle:
-            "Start connecting with friends, colleagues, and like-minded individuals to expand your network and collaborate efficiently.",
-          image: "/stock/05.webp",
-        },
+//         {
+//           title: "Connect with Others",
+//           subtitle:
+//             "Start connecting with friends, colleagues, and like-minded individuals to expand your network and collaborate efficiently.",
+//           image: "/stock/05.webp",
+//         },
       ],
     },
     features: {
       id: "features",
-      title: "Transform Your Daily Routine",
+      title: "Transform The Way You See The World",
       subtitle:
         "Elevate your lifestyle with our innovative mobile app, designed for seamless living",
       cards: [
         {
-          title: "Seamless Integration",
+          title: "Limitless Creativity 🎨",
           subtitle:
-            "Connect effortlessly with all your devices, ensuring smooth and efficient workflows across different platforms and applications without any disruptions",
-          icon: "/3D/link-front-color.webp",
+            "Invite your friends to a world full of creativity where you can add anything you can think of. From common objects to imaginative items, the only limit is your imagination.",
+          icon: "/3D/paint-kit-front-color.webp",
         },
         {
-          title: "24/7 Customer Support",
+          title: "Interactive Bingo Mode 🎲",
           subtitle:
-            "Get assistance whenever you need it with our dedicated customer support team, available around the clock to help resolve any issues you may encounter",
+            "The new Bingo feature, where you and your friends receive personalized cards and compete to complete a line or full Bingo. It adds an extra layer of fun and healthy competition.",
           icon: "/3D/clock-front-color.webp",
         },
         {
-          title: "Intuitive Design",
+          title: "Play and Discover 🔍",
           subtitle:
-            "Navigate through our intuitive and easy-to-use interface designed to enhance user experience, making it accessible for users of all skill levels",
-          icon: "/3D/roll-brush-front-color.webp",
+            "We encourage to explore your surroundings in a fun and exciting way. Every game is a unique adventure that turns everyday activities into thrilling treasure hunts.",
+          icon: "/3D/notify-heart-front-color.webp",
         },
         {
-          title: "Top-Notch Security",
+          title: "Festive Experience ❄️🎄",
           subtitle:
-            "Protect your data with our top-notch security protocols, offering robust encryption and real-time monitoring to keep your information safe and secure",
-          icon: "/3D/sheild-front-color.webp",
+            "Check the seasonal animations and themes, like the new falling snow animation, which add a magical and festive touch to the gaming experience, making every session special.",
+          icon: "/3D/gift-front-color.webp",
         },
       ],
     },
@@ -179,75 +176,77 @@ const templateConfig: TemplateConfig = {
       title: "Frequently Asked Questions",
       qa: [
         {
-          question: "How can I create an account on your website?",
+          question: "What is 'Like This'?",
           answer:
-            "To create an account, click on the 'Sign Up' button located at the top right corner of our homepage. Fill in the required information, including your name, email address, and password. Once you submit the form, you will receive a confirmation email. Click the link in the email to verify your account, and you're all set!",
+            "'Like This' is an interactive game where players create lists of fun and curious items they'd like to see or find. Each game is a unique adventure that turns everyday activities into exciting treasure hunts.",        },
+        {
+          question: "How does the Bingo mode work?",
+          answer:
+            "In Bingo mode, each player receives a personalized card with the items they've added. During the game, players search for and mark the items on their cards. The first to complete a line (horizontal) partially wins and th first to achieve a full Bingo wins.",
         },
         {
-          question: "What payment methods do you accept?",
+          question: "Can I play 'Like This' with friends and family?",
           answer:
-            "We accept a variety of payment methods to ensure convenience for our customers. These include major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, and Google Pay. For more details, visit our Payments page.",
+            "Yes! 'Like This' is designed to be enjoyed both solo and with others. You can compete with friends and family to see who can complete the game first.",
         },
         {
-          question: "How can I track my order?",
-          answer:
-            "Once your order is shipped, you will receive an email with a tracking number. You can use this tracking number on our website under the 'Track Order' section to see the current status and estimated delivery date of your package.",
-        },
-        {
-          question: "What is your return policy?",
+          question: "What kind of items can I add in the game?",
           answer:
             "We offer a 30-day return policy for unused and unopened items. If you are not satisfied with your purchase, please contact our customer support team to initiate a return. Refunds will be processed within 7-10 business days after we receive the returned item.",
         },
-        {
-          question: "How can I contact customer support?",
-          answer:
-            "You can contact our customer support team through the 'Contact Us' page on our website. We are available via email, phone, and live chat. Our support hours are Monday to Friday, 9 AM to 5 PM.",
-        },
+         {
+           question: "Is the app free?",
+           answer:
+             "'Like This' is free to use, with in-app purchase options for additional features and exclusive content.",
+         },
+           {
+             question: "How can I report a problem or give feedback?",
+             answer:
+               "To report problems or give feedback, you can use the support section within the app or email us at info@yapplic. We love hearing your suggestions and working to improve the 'Like This' experience.",
+           },
       ],
     },
     header: {
-      headline: "Your Ultimate App for Every Need",
+      headline: "Like This: Where Creativity Meets Adventure!",
       subtitle:
-        "Streamline your tasks, boost your productivity, and accomplish more every day. Unlock a world of possibilities with our cutting-edge mobile application.",
+        "Turning Everyday Moments into Exciting Challenges. Unleash Your Imagination and Have Fun!",
       screenshots: [
-        "/screenshots/1.webp",
-        "/screenshots/2.webp",
         "/screenshots/3.webp",
+        "/screenshots/2.webp",
+        "/screenshots/1.webp",
       ],
-      rewards: ["App of the year \n 1st", "Product of the day"],
+//       rewards: ["App of the year \n 1st", "Product of the day"],
       usersDescription: "100+ people already using the app",
       headlineMark: [1, 3],
     },
     pricing: {
       id: "pricing",
       title: "Pricing",
-      subtitle: "Flexible costs to meet your budget",
+      subtitle: "Free to use",
       actionText: "Download the app",
       plans: [
         {
-          title: "Basic Plan",
-          price: "$9.99/month",
-          rows: ["Access to basic features", "Email support", "1 GB storage"],
+          title: "Free Plan",
+          price: "Free",
+          rows: ["Access all types of games"],
         },
         {
-          title: "Standard Plan",
-          price: "$19.99/month",
+          title: "Pro",
+          price: "5.99€/month",
           featured: true,
           rows: [
-            "Access to all basic features",
-            "Priority email support",
-            "10 GB storage",
-            "Monthly webinars",
+            "Limitless games",
+            "Extra functionalities",
+            "Remove Ads",
           ],
         },
         {
           title: "Premium Plan",
-          price: "$29.99/month",
+          price: "22.99€/month",
           rows: [
-            "Access to all features",
-            "24/7 support",
-            "100 GB storage",
-            "Weekly webinars",
+            "Customized UI Games",
+            "Public Games",
+            "Personalized App",
             "Exclusive content",
           ],
         },
@@ -256,67 +255,122 @@ const templateConfig: TemplateConfig = {
   },
   privacyPolicy: {
     seo: {
-      title: "Privacy Policy - Mobile App Landing Template",
+      title: "Privacy Policy - Like This",
       description: "Privacy Policy",
     },
     content: `# Privacy Policy
 
-**Effective Date:** [Insert Date]
+**Effective Date:** 17/12/2024
 
 ## Introduction
 
-Welcome to [Your App Name] (the "App"). [Your Company Name] ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share your personal information when you use our App.
+This privacy policy applies to the Someone Like You app (hereby referred to as "Application") for mobile devices that was created by Jordi (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
 
-## Information We Collect
 
-### 1. Information You Provide
-- **Account Information:** When you sign up for our App, we may collect your name, email address, and other contact information.
-- **User Content:** We may collect any content you upload, post, or otherwise transmit through the App, including messages, photos, and other media.
+Information Collection and Use
 
-### 2. Information We Collect Automatically
-- **Usage Data:** We collect information about your interactions with the App, such as the features you use and the time spent on the App.
-- **Device Information:** We collect information about the device you use to access the App, including IP address, device type, and operating system.
+The Application collects information when you download and use it. This information may include information such as
 
-### 3. Information from Third Parties
-- **Third-Party Services:** If you connect to the App through a third-party service (e.g., social media), we may collect information from that service as permitted by their privacy policies.
+Your device's Internet Protocol address (e.g. IP address)
+The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
+The time spent on the Application
+The operating system you use on your mobile device
 
-## How We Use Your Information
 
-We may use the information we collect for the following purposes:
-- **To Provide and Maintain Our Service:** We use your information to operate and improve the App.
-- **To Communicate with You:** We may use your contact information to send you updates, notifications, and other communications related to the App.
-- **To Personalize Your Experience:** We may use your information to personalize your experience with the App and to offer you content tailored to your interests.
-- **For Analytics and Research:** We use the information to analyze how our users interact with the App and to improve our services.
 
-## Sharing Your Information
 
-We do not share your personal information with third parties except in the following circumstances:
-- **With Your Consent:** We may share your information with third parties if you give us explicit consent to do so.
-- **Service Providers:** We may share your information with third-party service providers who perform services on our behalf.
-- **Legal Requirements:** We may disclose your information if required by law, or if we believe that such action is necessary to comply with legal obligations, protect our rights, or prevent fraud.
 
-## Your Rights and Choices
 
-- **Access and Correction:** You have the right to access and correct the personal information we hold about you.
-- **Data Deletion:** You may request that we delete your personal information by contacting us at [Your Contact Information].
-- **Opt-Out:** You may opt out of receiving promotional communications from us by following the instructions in those communications.
+The Application does not gather precise information about the location of your mobile device.
 
-## Security
+The Application collects your device's location, which helps the Service Provider determine your approximate geographical location and make use of in below ways:
 
-We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. However, no security system is completely secure, and we cannot guarantee the absolute security of your information.
+Geolocation Services: The Service Provider utilizes location data to provide features such as personalized content, relevant recommendations, and location-based services.
+Analytics and Improvements: Aggregated and anonymized location data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application.
+Third-Party Services: Periodically, the Service Provider may transmit anonymized location data to external services. These services assist them in enhancing the Application and optimizing their offerings.
 
-## Changes to This Privacy Policy
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective Date" above. Your continued use of the App after such changes signifies your acceptance of the revised Privacy Policy.
 
-## Contact Us
 
-If you have any questions or concerns about this Privacy Policy, please contact us at:
+The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
 
-[Your Company Name]  
-[Your Contact Information]  
-[Email Address]  
-[Phone Number (optional)]
+
+
+
+For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+
+
+Third Party Access
+
+Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+
+
+
+
+Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
+
+Google Play Services
+AdMob
+Google Analytics for Firebase
+Firebase Crashlytics
+
+
+
+
+The Service Provider may disclose User Provided and Automatically Collected Information:
+
+as required by law, such as to comply with a subpoena, or similar legal process;
+when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
+with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+
+
+
+
+Opt-Out Rights
+
+You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+
+
+Data Retention Policy
+
+The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at info@yapplic.com and they will respond in a reasonable time.
+
+
+Children
+
+The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
+
+
+
+
+The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (info@yapplic.com) so that they will be able to take the necessary actions.
+
+
+Security
+
+The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+
+
+Changes
+
+This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+
+
+
+
+This privacy policy is effective as of 2024-09-25
+
+
+Your Consent
+
+By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
+
+
+Contact Us
+
+If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at info@yapplic.com.
+
+This privacy policy page was generated by App Privacy Policy Generator
 
 `,
   },
@@ -327,11 +381,11 @@ If you have any questions or concerns about this Privacy Policy, please contact 
     },
     content: `# Cookies Policy
 
-**Effective Date:** [Insert Date]
+**Effective Date:** 17/12/2024
 
 ## Introduction
 
-This Cookies Policy explains how [Your Company Name] ("we," "our," or "us") uses cookies and similar technologies to recognize you when you visit our app, [Your App Name] (the "App"). It explains what these technologies are and why we use them, as well as your rights to control their use.
+This Cookies Policy explains how Yapplic ("we," "our," or "us") uses cookies and similar technologies to recognize you when you visit our app, Like This (the "App"). It explains what these technologies are and why we use them, as well as your rights to control their use.
 
 ## What Are Cookies?
 
@@ -386,10 +440,9 @@ We may update this Cookies Policy from time to time. We will notify you of any c
 
 If you have any questions or concerns about our use of cookies, please contact us at:
 
-[Your Company Name]  
-[Your Contact Information]  
-[Email Address]  
-[Phone Number (optional)]
+Yapplic
+Jordi Toda
+info@yapplic.com
 `,
   },
   termsAndConditions: {
@@ -399,11 +452,11 @@ If you have any questions or concerns about our use of cookies, please contact u
     },
     content: `# Terms and Conditions
 
-**Effective Date:** [Insert Date]
+**Effective Date:** 17/12/2024
 
 ## Introduction
 
-Welcome to [Your App Name] (the "App"). These Terms and Conditions ("Terms") govern your use of the App provided by [Your Company Name] ("we," "our," or "us"). By accessing or using our App, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.
+Welcome to Like This (the "App"). These Terms and Conditions ("Terms") govern your use of the App provided by Yapplic ("we," "our," or "us"). By accessing or using our App, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.
 
 ## Use of the App
 
@@ -463,10 +516,9 @@ We may update these Terms from time to time. We will notify you of any changes b
 
 If you have any questions or concerns about these Terms, please contact us at:
 
-[Your Company Name]  
-[Your Contact Information]  
-[Email Address]  
-[Phone Number (optional)]
+Yapplic
+Jordi Toda
+info@yapplic.com
 `,
   },
 };
