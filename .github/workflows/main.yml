@@ -39,11 +39,6 @@ jobs:
           with:
             # Upload dist repository
             path: ./dist
-        - name: Install, build, and upload your site
-          uses: withastro/action@v3
-          with:
-           version: 20
-
         - name: Deploy to GitHub Pages
           id: deployment
           uses: actions/deploy-pages@v4
