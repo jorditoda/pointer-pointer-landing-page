@@ -217,7 +217,7 @@ const templateConfig: TemplateConfig = {
       ],
 //       rewards: ["App of the year \n 1st", "Product of the day"],
       usersDescription: "100+ people already using the app",
-      headlineMark: [1, 3],
+      headlineMark: [0, 2],
     },
     pricing: {
       id: "pricing",
