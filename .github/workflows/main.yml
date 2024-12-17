@@ -1,4 +1,4 @@
-name: pnpm Example Workflow
+name: Deploy pnpm to GitHub pages
 
 on:
   push:
@@ -41,4 +41,4 @@ jobs:
             path: ./dist
         - name: Deploy to GitHub Pages
           id: deployment
-          uses: actions/deploy-pages@v1
+          uses: actions/deploy-pages@v4
