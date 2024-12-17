@@ -41,6 +41,8 @@ jobs:
             path: ./dist
         - name: Install, build, and upload your site
           uses: withastro/action@v3
+          with:
+           node-version: 20
 
         - name: Deploy to GitHub Pages
           id: deployment
