@@ -87,7 +87,7 @@ const templateConfig: TemplateConfig = {
 //           name: "Jose R.",
 //           comment:
 // "Esta app es perfecta para mantener entretenidos a mis hijos durante las salidas. Les encanta buscar los ítems que agregamos en el juego. La nueva función de Bingo añade una competencia sana y mucha diversión.",
- },
+//  },
 //         {
 //           name: "Laura M.",
 //           comment:
@@ -127,7 +127,7 @@ const templateConfig: TemplateConfig = {
           subtitle:
             "You can start driving and checking all the information of the journey",
           image: "/stock/03.webp",
-        }
+        },
 //         {
 //           title: "Have fun",
 //           subtitle:
@@ -239,26 +239,26 @@ const templateConfig: TemplateConfig = {
           price: "Free",
           rows: ["Access all gauges"],
         },
-//         {
-//           title: "Pro",
-//           price: "5.99€/month",
-//           featured: true,
-//           rows: [
-//             "Limitless games",
-//             "Extra functionalities",
-//             "Remove Ads",
-//           ],
-//         },
-//         {
-//           title: "Premium Plan",
-//           price: "22.99€/month",
-//           rows: [
-//             "Customized UI Games",
-//             "Public Games",
-//             "Personalized App",
-//             "Exclusive content",
-//           ],
-//         },
+        {
+          title: "Pro",
+          price: "5.99€/month",
+          featured: true,
+          rows: [
+            "Limitless games",
+            "Extra functionalities",
+            "Remove Ads",
+          ],
+        },
+        {
+          title: "Premium Plan",
+          price: "22.99€/month",
+          rows: [
+            "Customized UI Games",
+            "Public Games",
+            "Personalized App",
+            "Exclusive content",
+          ],
+        },
       ],
     },
   },
