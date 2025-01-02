@@ -1,15 +1,29 @@
 {
   "applinks": {
-      "apps": [],
-      "details": [
-           {
-             "appIDs": [ "6739965531.com.stormfkrs.likeThis" ],
-             "paths": [
-               {
-                  "/someonelikethis/*",
-               }
-             ]
-           }
-       ]
-   }
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "5TBPWQQX3G.com.stormfkrs.likeThis"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/someonelikethis/*",
+            "?": {
+              "gameId": "*"
+            },
+            "comment": "Matches any URL with a path that starts with /someonelikethis/ and that has a query item with name 'gameId' with value."
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "5TBPWQQX3G.com.stormfkrs.likeThis"
+    ]
+  }
 }
