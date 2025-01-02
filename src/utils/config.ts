@@ -239,26 +239,26 @@ const templateConfig: TemplateConfig = {
           price: "Free",
           rows: ["Access all gauges"],
         },
-        {
-          title: "Pro",
-          price: "5.99€/month",
-          featured: true,
-          rows: [
-            "Limitless games",
-            "Extra functionalities",
-            "Remove Ads",
-          ],
-        },
-        {
-          title: "Premium Plan",
-          price: "22.99€/month",
-          rows: [
-            "Customized UI Games",
-            "Public Games",
-            "Personalized App",
-            "Exclusive content",
-          ],
-        },
+//         {
+//           title: "Pro",
+//           price: "5.99€/month",
+//           featured: true,
+//           rows: [
+//             "Limitless games",
+//             "Extra functionalities",
+//             "Remove Ads",
+//           ],
+//         },
+//         {
+//           title: "Premium Plan",
+//           price: "22.99€/month",
+//           rows: [
+//             "Customized UI Games",
+//             "Public Games",
+//             "Personalized App",
+//             "Exclusive content",
+//           ],
+//         },
       ],
     },
   },
