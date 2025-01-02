@@ -1,22 +1,22 @@
 import type { TemplateConfig } from "./configType";
 
 const templateConfig: TemplateConfig = {
-  name: "Like This",
+  name: "Rally Hud",
   seo: {
-    title: "Download Like This",
-    description: "Like This",
+    title: "Download Rally Hud",
+    description: "Rally Hud",
   },
   // Draws grid behind main container
   backgroundGrid: false,
-  logo: "/logo.svg",
+  logo: "/logo.png",
   theme: "corporate",
   // Forces theme to be chosen above, no matter what user prefers
   forceTheme: false,
   // Shows switch to toggle between dark and light modes
   showThemeSwitch: true,
 //   appStoreLink: "https://apps.apple.com/us/app/google/id284815942",
-  googlePlayLink:
-    "https://play.google.com/store/apps/details?id=com.stormfkrs.like_this",
+//   googlePlayLink:
+//     "https://play.google.com/store/apps/details?id=com.stormfkrs.rally_hud",
   footer: {
     legalLinks: {
       termsAndConditions: true,
@@ -49,19 +49,19 @@ const templateConfig: TemplateConfig = {
   },
   appBanner: {
     id: "app-banner",
-    title: "Download Like This Today!",
+    title: "Download Rally Hud Today!",
     subtitle:
-      "Discover the most amazing items in the world. Stay connected, informed, and in control wherever you are.",
+      "Use it for your nocturnal driving with your project car",
     screenshots: [
-      "/screenshots/1.webp",
-      "/screenshots/2.webp",
-      "/screenshots/3.webp",
+      "/screenshots/1.png",
+      "/screenshots/2.png",
+      "/screenshots/3.png",
     ],
   },
   home: {
     seo: {
-      title: "Download Like This Mobile App",
-      description: "Download Like This Mobile App",
+      title: "Download Rally Hud Mobile App",
+      description: "Download Rally Hud Mobile App",
     },
     testimonials: {
       id: "testimonials",
@@ -71,25 +71,28 @@ const templateConfig: TemplateConfig = {
         {
           name: "Marta G.",
           comment:
-            "Una app súper divertida y original. Me encanta cómo puedo agregar cualquier cosa que se me ocurra para encontrar en el juego. La nueva función de Bingo es un toque genial, ¡mis amigos y yo no podemos dejar de jugar!",
+            "Esta app es exactamente lo que necesitaba. El diseño es elegante y las funcionalidades son perfectas para los que nos gusta estar al tanto de todos los detalles mientras conducimos. ¡Un 10!",
         },
         {
           name: "Carlos H.",
           comment:
-            "‘Like This’ ha llevado nuestras reuniones familiares al siguiente nivel. El modo Bingo es nuestro favorito, especialmente cuando añadimos cosas graciosas y raras a nuestras tarjetas. ¡Muy recomendable!",
+            "Una app muy innovadora. Es perfecta para viajes largos y para los que nos gusta tener todo bajo control en el coche. Solo echo en falta la integración con más dispositivos externos.",
         },
         {
-          name: "Ana P.",
+          name: "Juan P.",
           comment:
-            "Soy un gran fan de las apps que combinan creatividad y diversión, y ‘Like This’ lo hace perfectamente. La animación de nieve navideña me ha encantado, ¡realmente le da un toque especial a la temporada!",        },
-        {
-          name: "Jose R.",
-          comment:
-"Esta app es perfecta para mantener entretenidos a mis hijos durante las salidas. Les encanta buscar los ítems que agregamos en el juego. La nueva función de Bingo añade una competencia sana y mucha diversión.",        },
-        {
-          name: "Laura M.",
-          comment:
-"La simplicidad y el ingenio de ‘Like This’ me han sorprendido gratamente. Crear mis propias tarjetas de Bingo con ítems originales ha sido una experiencia única. ¡Gran trabajo con esta app!",        },
+            "Como piloto de rally, necesito una herramienta confiable y precisa para monitorizar mi rendimiento en tiempo real. Esta app de HUD ha superado todas mis expectativas. La visualización de la velocidad y las fuerzas G es esencial durante las carreras, y me permite ajustar mi conducción al instante. La interfaz es intuitiva y no distrae durante la conducción, lo cual es crucial en los tramos más complicados. ¡Altamente recomendada para cualquier apasionado del rally!",
+        },
+//         {
+//           name: "Jose R.",
+//           comment:
+// "Esta app es perfecta para mantener entretenidos a mis hijos durante las salidas. Les encanta buscar los ítems que agregamos en el juego. La nueva función de Bingo añade una competencia sana y mucha diversión.",
+ },
+//         {
+//           name: "Laura M.",
+//           comment:
+// "La simplicidad y el ingenio de ‘Like This’ me han sorprendido gratamente. Crear mis propias tarjetas de Bingo con ítems originales ha sido una experiencia única. ¡Gran trabajo con esta app!",
+// },
       ],
     },
 //     partners: {
@@ -114,23 +117,23 @@ const templateConfig: TemplateConfig = {
           image: "/stock/01.webp",
         },
         {
-          title: "Create an Account",
+          title: "Give location permission",
           subtitle:
-            "Sign up by entering your personal details and verifying your email to create a new account in just a few minutes.",
+            "Give Rally Hud location permissions in order to get the velocity more precise",
           image: "/stock/02.webp",
         },
         {
-          title: "Create a new Game",
+          title: "Start driving",
           subtitle:
-            "Create a new fully customized game to play with your friends",
+            "You can start driving and checking all the information of the journey",
           image: "/stock/03.webp",
-        },
-        {
-          title: "Have fun",
-          subtitle:
-            "Play with your friends in a single game and beat them all",
-          image: "/stock/04.webp",
-        },
+        }
+//         {
+//           title: "Have fun",
+//           subtitle:
+//             "Play with your friends in a single game and beat them all",
+//           image: "/stock/04.webp",
+//         },
 //         {
 //           title: "Connect with Others",
 //           subtitle:
@@ -141,34 +144,34 @@ const templateConfig: TemplateConfig = {
     },
     features: {
       id: "features",
-      title: "Transform The Way You See The World",
+      title: "All the information you need",
       subtitle:
         "Elevate your lifestyle with our innovative mobile app, designed for seamless living",
       cards: [
         {
-          title: "Limitless Creativity 🎨",
+          title: "Speed 🎨",
           subtitle:
-            "Invite your friends to a world full of creativity where you can add anything you can think of. From common objects to imaginative items, the only limit is your imagination.",
-          icon: "/3D/paint-kit-front-color.webp",
+            "Current speed of the vehicle projected onto the windshield, allowing drivers to monitor their speed without taking their eyes off the road.",
+          icon: "/3D/rocket-front-color.webp",
         },
         {
-          title: "Interactive Bingo Mode 🎲",
+          title: "G Forces 🎲",
           subtitle:
-            "The new Bingo feature, where you and your friends receive personalized cards and compete to complete a line or full Bingo. It adds an extra layer of fun and healthy competition.",
-          icon: "/3D/clock-front-color.webp",
+            "real-time data on the G-forces experienced during driving, helping drivers better understand their vehicle's dynamics and performance.",
+          icon: "/3D/trophy-front-color.webp",
         },
-        {
-          title: "Play and Discover 🔍",
-          subtitle:
-            "We encourage to explore your surroundings in a fun and exciting way. Every game is a unique adventure that turns everyday activities into thrilling treasure hunts.",
-          icon: "/3D/notify-heart-front-color.webp",
-        },
-        {
-          title: "Festive Experience ❄️🎄",
-          subtitle:
-            "Check the seasonal animations and themes, like the new falling snow animation, which add a magical and festive touch to the gaming experience, making every session special.",
-          icon: "/3D/gift-front-color.webp",
-        },
+//         {
+//           title: "Play and Discover 🔍",
+//           subtitle:
+//             "We encourage to explore your surroundings in a fun and exciting way. Every game is a unique adventure that turns everyday activities into thrilling treasure hunts.",
+//           icon: "/3D/notify-heart-front-color.webp",
+//         },
+//         {
+//           title: "Festive Experience ❄️🎄",
+//           subtitle:
+//             "Check the seasonal animations and themes, like the new falling snow animation, which add a magical and festive touch to the gaming experience, making every session special.",
+//           icon: "/3D/gift-front-color.webp",
+//         },
       ],
     },
     faq: {
@@ -176,44 +179,50 @@ const templateConfig: TemplateConfig = {
       title: "Frequently Asked Questions",
       qa: [
         {
-          question: "What is 'Like This'?",
+          question: "What is the HUD app and how does it work?",
           answer:
-            "'Like This' is an interactive game where players create lists of fun and curious items they'd like to see or find. Each game is a unique adventure that turns everyday activities into exciting treasure hunts.",        },
+            "Our HUD (Heads-Up Display) app projects crucial information such as speed and G-forces onto your car’s windshield, allowing for safer, distraction-free driving.",
+            },
         {
-          question: "How does the Bingo mode work?",
+          question: "Is the app difficult to install and set up?",
           answer:
-            "In Bingo mode, each player receives a personalized card with the items they've added. During the game, players search for and mark the items on their cards. The first to complete a line (horizontal) partially wins and th first to achieve a full Bingo wins.",
+            "No, our app is very easy to install and set up. You just need to download it from the app store and accept location permissions.",
         },
         {
-          question: "Can I play 'Like This' with friends and family?",
+          question: "What devices are compatible with the app?",
           answer:
-            "Yes! 'Like This' is designed to be enjoyed both solo and with others. You can compete with friends and family to see who can complete the game first.",
+            "The app is compatible with most smartphones running iOS and Android operating systems. Make sure you have the latest version of the OS for optimal performance.",
         },
         {
-          question: "What kind of items can I add in the game?",
+          question: "Does the app affect my smartphone's performance?",
           answer:
-            "We offer a 30-day return policy for unused and unopened items. If you are not satisfied with your purchase, please contact our customer support team to initiate a return. Refunds will be processed within 7-10 business days after we receive the returned item.",
+            "No, our app is designed to be efficient and does not significantly impact your smartphone's performance.",
         },
          {
-           question: "Is the app free?",
+           question: "Do I need a special windshield to use the app?",
            answer:
-             "'Like This' is free to use, with in-app purchase options for additional features and exclusive content.",
+             "No, you can use any standard windshield. Just make sure to position your smartphone properly for a clear view.",
          },
-           {
-             question: "How can I report a problem or give feedback?",
-             answer:
-               "To report problems or give feedback, you can use the support section within the app or email us at info@yapplic. We love hearing your suggestions and working to improve the 'Like This' experience.",
-           },
+         {
+           question: "How can I report a problem or give feedback?",
+           answer:
+             "You can contact our technical support team through the contact form on our website or by emailing info@yapplic.com. We’re happy to help.",
+         },
+          {
+            question: "Does the app consume a lot of mobile data?",
+            answer:
+              "he app uses minimal mobile data for certain functions. We recommend using a Wi-Fi connection for updates and initial setup.",
+          },
       ],
     },
     header: {
-      headline: "Like This: Where Creativity Meets Adventure!",
+      headline: "Enhance Your Driving Experience with Rally Hud",
       subtitle:
-        "Turning Everyday Moments into Exciting Challenges. Unleash Your Imagination and Have Fun!",
+        "Real-Time Speed and G-Force Monitoring for Safer, More Informed Driving",
       screenshots: [
-        "/screenshots/3.webp",
-        "/screenshots/2.webp",
-        "/screenshots/1.webp",
+        "/screenshots/3.png",
+        "/screenshots/2.png",
+        "/screenshots/1.png",
       ],
 //       rewards: ["App of the year \n 1st", "Product of the day"],
       usersDescription: "100+ people already using the app",
@@ -228,34 +237,34 @@ const templateConfig: TemplateConfig = {
         {
           title: "Free Plan",
           price: "Free",
-          rows: ["Access all types of games"],
+          rows: ["Access all gauges"],
         },
-        {
-          title: "Pro",
-          price: "5.99€/month",
-          featured: true,
-          rows: [
-            "Limitless games",
-            "Extra functionalities",
-            "Remove Ads",
-          ],
-        },
-        {
-          title: "Premium Plan",
-          price: "22.99€/month",
-          rows: [
-            "Customized UI Games",
-            "Public Games",
-            "Personalized App",
-            "Exclusive content",
-          ],
-        },
+//         {
+//           title: "Pro",
+//           price: "5.99€/month",
+//           featured: true,
+//           rows: [
+//             "Limitless games",
+//             "Extra functionalities",
+//             "Remove Ads",
+//           ],
+//         },
+//         {
+//           title: "Premium Plan",
+//           price: "22.99€/month",
+//           rows: [
+//             "Customized UI Games",
+//             "Public Games",
+//             "Personalized App",
+//             "Exclusive content",
+//           ],
+//         },
       ],
     },
   },
   privacyPolicy: {
     seo: {
-      title: "Privacy Policy - Like This",
+      title: "Privacy Policy - Rally Hud",
       description: "Privacy Policy",
     },
     content: `**Privacy Policy**
@@ -338,7 +347,7 @@ This privacy policy page was generated by [App Privacy Policy Generator](https:/
   },
   cookiesPolicy: {
     seo: {
-      title: "Cookies Policy - Mobile App Landing Template",
+      title: "Cookies Policy - Rally Hud",
       description: "Cookies Policy",
     },
     content: `# Cookies Policy
@@ -409,7 +418,7 @@ info@yapplic.com
   },
   termsAndConditions: {
     seo: {
-      title: "Terms and conditions - Mobile App Landing Template",
+      title: "Terms and conditions - Rally Hud",
       description: "Terms and conditions",
     },
     content: `**Terms & Conditions**  
