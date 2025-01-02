@@ -11,15 +11,10 @@
         ],
         "components": [
           {
-            "/": "*",
+            "/": "/*",
             }
         ]
       }
-    ]
-  },
-  "webcredentials": {
-    "apps": [
-      "5TBPWQQX3G.com.stormfkrs.likeThis"
     ]
   }
 }
