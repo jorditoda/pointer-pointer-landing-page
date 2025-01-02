@@ -12,6 +12,8 @@
         "components": [
           {
             "/": "/*",
+            "?": { "gameId": "*" },
+            "comment": "Matches any URL with a path that starts with /someonelikethis/ and that has a query item with name 'gameId' with value."
             }
         ]
       }
