@@ -14,9 +14,9 @@ const templateConfig: TemplateConfig = {
   forceTheme: false,
   // Shows switch to toggle between dark and light modes
   showThemeSwitch: true,
-//   appStoreLink: "https://apps.apple.com/us/app/google/id284815942",
-//   googlePlayLink:
-//     "https://play.google.com/store/apps/details?id=com.stormfkrs.rally_hud",
+  appStoreLink: "https://apps.apple.com/us/app/rally-hud/id6739874068",
+  googlePlayLink:
+    "https://play.google.com/store/apps/details?id=com.stormfkrs.rally_hud",
   footer: {
     legalLinks: {
       termsAndConditions: true,
