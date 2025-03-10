@@ -1,6 +1,6 @@
-# Like This Landing Page
+# Pointer Pointer Landing Page
 
-**Like This Landing Page**
+**Pointer Pointer Landing Page**
 
 ## Credits
 
