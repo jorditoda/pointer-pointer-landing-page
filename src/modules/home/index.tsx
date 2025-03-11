@@ -4,7 +4,7 @@ import AppBanner from "../../components/appBanner";
 import { ConfigContext } from "../../utils/configContext";
 import type { TemplateConfig } from "../../utils/configType";
 import Header from "./_components/header";
-import Features from "./_components/features";
+// import Features from "./_components/features";
 import Partners from "./_components/partners";
 // import Faq from "./_components/faq";
 // import HowItWorks from "./_components/howItWorks";
@@ -22,11 +22,13 @@ function Home({ config }: Props) {
         <Navbar />
         <Header />
         <Partners />
-        <Features />
-//         <HowItWorks />
-//         <Pricing />
-//         <Testimonials />
-//         <Faq />
+{/*
+         <Features />
+         <HowItWorks />
+         <Pricing />
+         <Testimonials />
+         <Faq />
+*/}
         <AppBanner />
         <Footer />
       </main>
