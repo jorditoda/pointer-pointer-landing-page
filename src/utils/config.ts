@@ -14,7 +14,7 @@ const templateConfig: TemplateConfig = {
   forceTheme: false,
   // Shows switch to toggle between dark and light modes
   showThemeSwitch: true,
-  appStoreLink: "https://apps.apple.com/us/app/rally-hud/id6739874068",
+  appStoreLink: "https://apps.apple.com/us/app/pointer-pointer/id6743094753",
   googlePlayLink:
     "https://play.google.com/store/apps/details?id=com.yapplic.pointer_pointer",
   footer: {
