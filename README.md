@@ -8,3 +8,7 @@
 
 ## License
 [MIT License](LICENSE)
+
+## Deploy
+
+npm start

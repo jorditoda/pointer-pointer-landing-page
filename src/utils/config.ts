@@ -114,19 +114,17 @@ const templateConfig: TemplateConfig = {
           title: "Install the App",
           subtitle:
             "Download and install the app on your device to get started quickly and easily.",
-          image: "/stock/01.webp",
-        },
-        {
-          title: "Give location permission",
-          subtitle:
-            "Give Pointer Pointer location permissions in order to get the velocity more precise",
-          image: "/stock/02.webp",
-        },
-        {
-          title: "Start driving",
-          subtitle:
-            "You can start driving and checking all the information of the journey",
           image: "/stock/03.webp",
+        },
+        {
+          title: "Click anywhere in the screen",
+          subtitle: "Click anywhere in the screen, try to find the most difficult spot",
+          image: "/screenshots/1.png",
+        },
+        {
+          title: "Someone Pointing your finger",
+          subtitle: "You will find an image of someone pointing where you clicked",
+          image: "/screenshots/4.png",
         },
 //         {
 //           title: "Have fun",

@@ -7,7 +7,7 @@ import Header from "./_components/header";
 // import Features from "./_components/features";
 import Partners from "./_components/partners";
 // import Faq from "./_components/faq";
-// import HowItWorks from "./_components/howItWorks";
+import HowItWorks from "./_components/howItWorks";
 // import Pricing from "./_components/pricing";
 // import Testimonials from "./_components/testimonials";
 
@@ -22,6 +22,7 @@ function Home({ config }: Props) {
         <Navbar />
         <Header />
         <Partners />
+        <HowItWorks />
 {/*
          <Features />
          <HowItWorks />

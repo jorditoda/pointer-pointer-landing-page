@@ -120,13 +120,24 @@ function Footer() {
                 Cookies policy
               </motion.a>
             )}
+            <motion.a
+              variants={{
+                hidden: { opacity: 0, scale: 0.4 },
+                visible: { opacity: 1, scale: 1 },
+              }}
+              transition={{ delay: 1 }}
+              className="font-bold text-primary hover:text-primary/50 lg:whitespace-nowrap"
+              href="mailto:info@yapplic.com"
+            >
+              Contact: info@yapplic.com
+            </motion.a>
           </div>
           <motion.p
             variants={{
               hidden: { opacity: 0, scale: 0.4 },
               visible: { opacity: 1, scale: 1 },
             }}
-            transition={{ delay: 1 }}
+            transition={{ delay: 1.25 }}
             className="mt-0.5 md:ml-4 md:whitespace-nowrap"
           >
             All rights reserved © {new Date().getFullYear()}
